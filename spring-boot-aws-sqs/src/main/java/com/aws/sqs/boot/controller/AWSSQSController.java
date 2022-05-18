@@ -26,6 +26,9 @@ public class AWSSQSController {
         System.out.println("Message Published to AWS Queue ");
     }
 
-
+    @SqsListener("manish-queue")
+    public void readMessageFromAWSQueue(String message){
+        System.out.println("Message you have publish is :: "+message);
+    }
 
 }
