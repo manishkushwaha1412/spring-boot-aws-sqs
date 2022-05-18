@@ -1,0 +1,10 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAQHN27ZXJGVJ6PTJB
+      secret-key: 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
+    region:
+      static: ap-south-1
+      auto: false
+    end-point:
+      uri: https://sqs.ap-south-1.amazonaws.com/015961411026/manish-queue
